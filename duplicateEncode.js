@@ -1,3 +1,5 @@
+"use strict";
+
 function duplicateEncode(word) {
   let wordArray = word.toLowerCase().split("");
   let wordArrayEntries = wordArray.entries();
